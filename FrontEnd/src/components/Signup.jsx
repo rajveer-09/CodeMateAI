@@ -2,6 +2,7 @@ import { Eye } from "lucide-react";
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
+const API = import.meta.env.VITE_BACKEND_URL;
 
 function Signup() {
   const [formData, setFormData] = useState({
@@ -25,7 +26,7 @@ function Signup() {
     setMessage({ type: "", text: "" });
     try {
       const { data } = await axios.post(
-        "https://deepseek-g0tn.onrender.com/api/users/signup",
+        `${API}/api/users/signup`,
         formData,
         { withCredentials: true }
       );

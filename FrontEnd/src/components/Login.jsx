@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useAuth } from "../context/AuthProvider";
+const API = import.meta.env.VITE_BACKEND_URL;
 
 function Login() {
   const [formData, setFormData] = useState({ email: "", password: "" });
@@ -21,7 +22,7 @@ function Login() {
     setMessage({ type: "", text: "" });
     try {
       const { data } = await axios.post(
-        "https://deepseek-g0tn.onrender.com/api/users/login",
+        `${API}/api/users/login`,
         formData,
         { withCredentials: true }
       );

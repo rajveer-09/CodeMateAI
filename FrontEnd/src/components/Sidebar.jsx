@@ -3,6 +3,7 @@ import { LogOut, X } from "lucide-react";
 import { useAuth } from "../context/AuthProvider";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+const API = import.meta.env.VITE_BACKEND_URL;
 
 function Sidebar({ onClose, onNewChat }) {
   const user = JSON.parse(localStorage.getItem("user"));
@@ -14,7 +15,7 @@ function Sidebar({ onClose, onNewChat }) {
   const handleLogout = async () => {
     setMessage({ type: "", text: "" });
     try {
-      const { data } = await axios.get("https://deepseek-g0tn.onrender.com/api/users/logout", {
+      const { data } = await axios.get(`${API}/api/users/logout`, {
         withCredentials: true,
       });
 

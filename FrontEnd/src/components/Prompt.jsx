@@ -12,6 +12,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { tomorrow as codeTheme } from "react-syntax-highlighter/dist/esm/styles/prism";
+const API = import.meta.env.VITE_BACKEND_URL;
 
 const Prompt = forwardRef((props, ref) => {
   const [inputValue, setInputValue] = useState("");
@@ -63,7 +64,7 @@ const Prompt = forwardRef((props, ref) => {
     try {
       const token = localStorage.getItem("token");
       const { data } = await axios.post(
-        "https://deepseek-g0tn.onrender.com/api/deepseekai/prompt",
+        `${API}/api/deepseekai/prompt`,
         { content: trimmed },
         {
           headers: { Authorization: `Bearer ${token}` },
