@@ -4,11 +4,19 @@ import dotenv from 'dotenv'
 import userRoutes from './routes/user.route.js'
 import cookieParser from 'cookie-parser'
 import promptRoutes from './routes/prompt.route.js'
+import cors from 'cors'
 
 // basic setp ups
 const app = express()
 dotenv.config()
 const PORT = process.env.PORT || 5000
+
+app.use(cors({
+  origin: process.env.FRONTEND_URL,
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
 
 app.use(cookieParser())
 
