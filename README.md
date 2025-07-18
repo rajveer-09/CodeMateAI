@@ -41,7 +41,10 @@ DeepSeek
 
 ```
 ---
-## DEMO
+## Demo on Dekstop
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8c54a761-73a5-482e-8b84-4ed1cb4ec592" />
+
+## DEMO on Smaller Screen
 ![WhatsApp Image 2025-07-19 at 00 56 05_ba4563bf](https://github.com/user-attachments/assets/33d947b4-1d8d-4396-aa01-eedec6a46e7f)
 
 
