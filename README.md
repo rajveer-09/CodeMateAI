@@ -41,6 +41,9 @@ DeepSeek
 
 ```
 ---
+## DEMO
+![WhatsApp Image 2025-07-19 at 00 56 05_ba4563bf](https://github.com/user-attachments/assets/33d947b4-1d8d-4396-aa01-eedec6a46e7f)
+
 
 
 ---
