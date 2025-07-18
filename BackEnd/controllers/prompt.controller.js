@@ -3,7 +3,7 @@ import { generateContent } from "../services/assistant.service.js";
 
 export const createPrompt = async (req, res) => {
   const { content } = req.body;
-  const { userId } = req.body;
+  const userId = req.userId;  
 
   try {
     if (!content || content.trim() === "") {
