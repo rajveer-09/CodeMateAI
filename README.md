@@ -63,8 +63,8 @@ git clone https://github.com/rajveer-09/CodeMateAI.git
 
 ## 🌐 Live Demo  
 
-**Coming Soon...**  
-*(Link will be updated after deployment)*  
+**Click Here...**  
+**[CodeMateAI Live Link](https://codemateai.onrender.com/)**  
 
 ---
 
