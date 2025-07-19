@@ -43,10 +43,12 @@ CodeMateAI
 ---
 
 ## Demo on Desktop
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8c54a761-73a5-482e-8b84-4ed1cb4ec592" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f3af0c67-3b9f-45df-8f07-fa25a4fb19d9" />
+
 
 ## DEMO on Smaller Screen
-![WhatsApp Image 2025-07-19 at 00 56 05_ba4563bf](https://github.com/user-attachments/assets/33d947b4-1d8d-4396-aa01-eedec6a46e7f)
+![WhatsApp Image 2025-07-19 at 11 19 02_66615344](https://github.com/user-attachments/assets/c0fdd3e0-7ec8-42ce-9949-1385e3679e3f)
+
 
 ---
 
