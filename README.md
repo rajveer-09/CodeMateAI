@@ -1,6 +1,6 @@
-# DeepSeek — MERN Stack Web Application
+# CodeMate AI — MERN Stack Web Application
 
-DeepSeek is a full-stack web application built with the MERN stack (MongoDB, Express, React, Node.js) that allows users to authenticate securely and interact with AI-generated prompts.
+CodeMate AI is a full-stack web application built with the MERN stack (MongoDB, Express, React, Node.js) that allows users to authenticate securely and interact with AI-generated prompts.
 
 ## 🔥 Features
 - User Authentication (JWT-based)
@@ -24,7 +24,7 @@ DeepSeek is a full-stack web application built with the MERN stack (MongoDB, Exp
 
 ## 🗂️ Project Folder Structure
 ```
-DeepSeek
+CodeMateAI
 ├── BackEnd
 │ ├── controllers
 │ ├── middlewares
@@ -38,16 +38,15 @@ DeepSeek
 │ └── (React Frontend Files)
 ├── .gitignore
 └── README.md
-
 ```
+
 ---
-## Demo on Dekstop
+
+## Demo on Desktop
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8c54a761-73a5-482e-8b84-4ed1cb4ec592" />
 
 ## DEMO on Smaller Screen
 ![WhatsApp Image 2025-07-19 at 00 56 05_ba4563bf](https://github.com/user-attachments/assets/33d947b4-1d8d-4396-aa01-eedec6a46e7f)
-
-
 
 ---
 
@@ -55,9 +54,9 @@ DeepSeek
 
 ### 1️⃣ Clone this Repository
 ```bash
-git clone https://github.com/rajveer-09/DeepSeek.git
-
+git clone https://github.com/rajveer-09/CodeMateAI.git
 ```
+
 ---
 
 ## 🌐 Live Demo  

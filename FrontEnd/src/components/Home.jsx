@@ -31,7 +31,7 @@ function Home() {
       <div className="flex-1 flex flex-col w-full h-screen md:ml-64 md:pl-6">
         {/* Header for mobile */}
         <div className="md:hidden flex items-center justify-between px-4 py-3 border-b border-gray-700">
-          <div className="text-xl font-bold">deepseek</div>
+          <div className="text-xl font-bold">CodeMate AI</div>
           <button onClick={() => setIsSidebarOpen(true)}>
             <Menu className="w-6 h-6 text-gray-300" />
           </button>
