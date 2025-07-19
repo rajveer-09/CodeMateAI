@@ -43,7 +43,7 @@ function Sidebar({ onClose, onNewChat }) {
     <div className="h-full flex flex-col justify-between p-4 bg-[#161616]">
       <div>
         <div className="flex border-b border-gray-600 p-2 justify-between items-center mb-4">
-          <div className="text-2xl font-bold text-gray-200">Deepseek</div>
+          <div className="text-2xl font-bold text-gray-200">CodeMate AI</div>
           <button onClick={onClose}>
             <X className="w-6 h-6 text-gray-400 md:hidden" />
           </button>

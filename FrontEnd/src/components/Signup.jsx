@@ -112,7 +112,7 @@ function Signup() {
         </div>
 
         <p className="text-xs text-gray-400 mt-2 mb-4">
-          By signing up, you agree to DeepSeek's{" "}
+          By signing up, you agree to CodeMate AI's{" "}
           <a className="underline" href="">
             Terms of Use
           </a>{" "}

@@ -89,7 +89,7 @@ function Login() {
         </div>
 
         <p className="text-xs text-gray-400 mt-2 mb-4">
-          By logging in, you agree to DeepSeek's{" "}
+          By logging in, you agree to CodeMate AI's{" "}
           <a className="underline" href="">
             Terms of Use
           </a>{" "}

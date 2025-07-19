@@ -100,7 +100,7 @@ const Prompt = forwardRef((props, ref) => {
             <div className="flex justify-center items-center gap-2 mb-2">
               <img src={logo} alt="DeepSeek Logo" className="h-6 md:h-8" />
               <h1 className="text-2xl md:text-3xl font-semibold text-white">
-                Hi, I'm DeepSeek.
+                Hi, I'm CodeMate AI.
               </h1>
             </div>
             <p className="text-gray-400 text-base md:text-sm">
@@ -183,7 +183,7 @@ const Prompt = forwardRef((props, ref) => {
         <div className="bg-[#1a1a1a] rounded-[2rem] px-4 md:px-6 py-6 md:py-8 shadow-md max-w-3xl mx-auto">
           <input
             type="text"
-            placeholder="💬 Message DeepSeek"
+            placeholder="💬 Message CodeMate AI"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
             onKeyDown={handleKeyDown}
