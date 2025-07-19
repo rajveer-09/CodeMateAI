@@ -25,19 +25,33 @@ CodeMate AI is a full-stack web application built with the MERN stack (MongoDB, 
 ## 🗂️ Project Folder Structure
 ```
 CodeMateAI
-├── BackEnd
-│ ├── controllers
-│ ├── middlewares
-│ ├── models
-│ ├── routes
-│ ├── services
-│ ├── .env
-│ ├── index.js
-│ └── package.json
-├── FrontEnd
-│ └── (React Frontend Files)
-├── .gitignore
-└── README.md
+├── BackEnd 📁
+│   ├── controllers 📁
+│   ├── middlewares 📁
+│   ├── models 📁
+│   ├── routes 📁
+│   ├── services 📁
+│   ├── .env 📄
+│   ├── index.js 📄
+│   └── package.json 📄
+├── FrontEnd 📁
+│   ├── node_modules 📁
+│   ├── public 📁
+│   ├── src 📁
+│   │   ├── assets 📁
+│   │   ├── components 📁
+│   │   ├── context 📁
+│   │   ├── App.css 📄
+│   │   ├── App.jsx 📄
+│   │   ├── index.css 📄
+│   │   └── main.jsx 📄
+│   ├── .env 📄
+│   ├── index.html 📄
+│   ├── package.json 📄
+│   └── README.md 📄
+├── .gitignore 📄
+└── README.md 📄
+
 ```
 
 ---
